@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesafioFormulario</title>
+</head>
+<body>
+    <form action="DesafioHTML.html">
+        <label>Nombre
+    <br>
+            <input type="text" name="nombre">
+        </label>
+    <br>
+        <label>Apellido
+    <br>
+            <input type="text" name="apellido">
+        </label>
+    <br>
+        <label>Edad
+    <br>
+            <input type="number" name="edad" min="1" max="100">
+        </label>
+    <br>
+        <label for="nacion">Nacionalidad</label>
+    <br>
+        <select name="nacionalidad" id="nacion">
+            <option value="ARG">Argentina</option>
+            <option value="AUS">Australia</option>
+            <option value="BRA">Brasil</option>
+            <option value="ESP">España</option>
+            <option value="IRL">Irlanda</option>
+            <option value="ITA">Italia</option>
+        </select>
+    <br>
+        <label for="tecnologia">Tecnología</label>
+    <br>
+                <input type="checkbox" id="frontend" name="frontend">Frontend
+    <br>
+                <input type="checkbox" id="fullstack" name="fullstack">Fullstack
+    <br>
+                <input type="checkbox" id="backend" name="backend" >Backend
+    <br>
+            <label>Sos mayor de edad?
+    <br>
+                <input type="radio" name="mayorEdad" value="si"> Si
+    <br>
+                <input type="radio" name="mayorEdad" value="no"> No
+            </label>
+    <br>
+            <input name="enviar" type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
